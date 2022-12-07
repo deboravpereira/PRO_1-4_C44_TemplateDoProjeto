@@ -14,6 +14,7 @@ class Game{
         database.ref('/').update({
             gameState: state
         });
+        console.log("Que máximo")
     }
     async start() {
             if (gameState === 0) {
